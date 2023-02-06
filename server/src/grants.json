@@ -6,7 +6,31 @@
     "attributes": "*"
   },
   {
+    "role": "order",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "order",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
     "resource": "User",
     "action": "create:any",
     "attributes": "*"
@@ -18,7 +42,31 @@
     "attributes": "*"
   },
   {
+    "role": "order",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
     "role": "user",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "order",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
     "resource": "User",
     "action": "delete:any",
     "attributes": "*"
@@ -26,6 +74,108 @@
   {
     "role": "user",
     "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "order",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Customer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "order",
+    "resource": "Customer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Customer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Customer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "order",
+    "resource": "Customer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Customer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Customer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "order",
+    "resource": "Customer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Customer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Customer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "order",
+    "resource": "Customer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Customer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "user",
+    "resource": "Customer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "order",
+    "resource": "Customer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "customer",
+    "resource": "Customer",
     "action": "read:any",
     "attributes": "*"
   }
